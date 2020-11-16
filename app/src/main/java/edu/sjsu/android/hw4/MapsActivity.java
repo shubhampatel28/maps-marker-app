@@ -54,9 +54,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-       // Loader<Cursor> cursorLoader = onCreateLoader(0, null);
-        //Cursor data = getContentResolver().query(LocationsContentProvider.CONTENT_URI, null, null, null);
-        //onLoadFinished(cursorLoader, data);
+        Loader<Cursor> cursorLoader = onCreateLoader(0, null);
+        Cursor data = getContentResolver().query(LocationsContentProvider.CONTENT_URI, null, null, null);
+        onLoadFinished(cursorLoader, data);
 
         mMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
             @RequiresApi(api = Build.VERSION_CODES.R)

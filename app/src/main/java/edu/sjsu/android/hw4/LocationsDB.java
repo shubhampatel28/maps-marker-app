@@ -49,7 +49,7 @@ public class LocationsDB extends SQLiteOpenHelper {
     }
 
     public Cursor getLocations() {
-        return db.query(LOCATIONS_TABLE_NAME, new String[]{_ID, LATITUDE, LONGITUDE, ZOOMLEVEL}, null, null, null, null, null);
+        return db.query(LOCATIONS_TABLE_NAME, new String[] {_ID, LATITUDE, LONGITUDE, ZOOMLEVEL}, null, null, null, null, null);
     }
 
 }

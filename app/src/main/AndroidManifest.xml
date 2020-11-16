@@ -47,7 +47,6 @@
         <provider
             android:name="edu.sjsu.android.hw4.LocationsContentProvider"
             android:authorities="edu.sjsu.android.hw4"
-            android:enabled="true"
             android:exported="false" />
 
 
