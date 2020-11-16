@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">hw4</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="goolge_maps_key" templateMergeStrategy="preserve" translateable="false">AIzaSyA2iE4C-iw9Ks-N_nYyhW5EP_hAfYVZqr8</string>
+</resources>
